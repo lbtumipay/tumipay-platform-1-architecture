@@ -1,0 +1,43 @@
+version: 1
+name: tumipay-platform-3-architecture-skills
+execution:
+  foundation:
+    - repository-discovery
+    - requirements-baseline
+    - legacy-analysis
+    - architecture-modeling
+    - diagramming
+    - architecture-review
+    - architecture-traceability
+  domain_platform:
+    - capability-modeling
+    - domain-modeling
+    - bounded-context-design
+    - context-mapping
+    - event-modeling
+    - financial-modeling
+    - component-architecture
+  technical:
+    - integration-architecture
+    - api-design
+    - event-contracts
+    - data-architecture
+    - security-architecture
+    - reliability-architecture
+    - observability-architecture
+    - infrastructure-architecture
+  governance:
+    - architecture-decisions
+    - architecture-documentation
+diagrams:
+  software: C4
+  behavior: Mermaid
+  process: Mermaid
+  sequence: Mermaid
+  domain_entities: Mermaid
+  aggregates: Mermaid
+  bounded_contexts: Mermaid
+  context_mapping: Mermaid
+  state_machines: Mermaid
+  event_flows: Mermaid
+  data_flows: Mermaid
